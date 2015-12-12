@@ -17,7 +17,7 @@ game.id = '1';
 
 var hidingSpots = [];
 (function () {
-  var HidingSpot;
+  var hidingSpot;
   var indexOfSpotWithTreasure = Math.floor(Math.random() * 9);
   for (var i = 0; i < 9; i++) {
     hidingSpot = new HidingSpot();
